@@ -1,0 +1,17 @@
+<wpml-config>
+	<admin-texts>
+        <key name="emallshop_options">
+            <key name="google_analytics"/>
+            <key name="body_styling" />
+            <key name="search_categories"/>
+            <key name="newsletter_says"/>           
+        </key>
+    </admin-texts>
+	<custom-fields>   
+		<custom-field translate="1">_emallshop_show_title</custom-field>
+        <custom-field translate="1">_emallshop_portfolio_client_name</custom-field>
+        <custom-field translate="1">_emallshop_portfolio_project_url</custom-field>
+        <custom-field translate="1">client_designation</custom-field>
+		<custom-field translate="1">client_company</custom-field>		
+    </custom-fields>     
+</wpml-config>

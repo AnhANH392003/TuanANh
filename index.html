@@ -1,0 +1,776 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">	
+	<title>EmallShop Theme Documentation</title>	
+	<meta name="description" content="">
+	<meta name="date" content="2015-02-09T00:00:00+01:00">	
+	<link rel="stylesheet" href="assets/css/style.css" media="all">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800;'>
+	
+	<script src="assets/js/jquery.js"></script>	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+</head>
+<body class="documentation">
+	<div id="document_sidebar">
+		<a href="#document_intro" id="document_logo"></a>
+		<ul id="document_nav">
+			<li><a class="current" href="#document_intro">Introduction</a></li>
+			<li class="title">Installation</li>
+			<li><a href="#theme_installation" title="Theme Installation">Theme Installation</a></li>
+			<li><a href="#plugins_install" title="Plugins Installation">Plugins Installation</a></li>
+			<li><a href="#import_demo_data" title="Import Demo Data">Import Demo Data</a></li>
+			<li class="title">Theme Setup</li>
+			<li><a href="#logo_setup" title="Logo Setup">Logo Setup</a></li>
+			<li><a href="#menu_setup" title="Menu Setup">Menu Setup</a></li>
+			<li><a href="#header_setup" title="Header Setup">Header Setup</a></li>
+			<li><a href="#footer_setup" title="Footer Setup">Footer Setup</a></li>
+			<li><a href="#home_page_setup" title="Home Page Setup">Home Page Setup</a></li>
+			<li><a href="#theme_options" title="Theme Options">Theme Options</a></li>
+			<li><a href="#theme_colors" title="Theme Colors">Theme Colors</a></li>
+			<li><a href="#sidebar" title="Sidebar">Sidebars</a></li>
+			<li><a href="#widget" title="Widgets">Widgets</a></li>
+			<li><a href="#uploading_image_size" title="Uploading Image Size">* Uploading Image Size</a></li>
+			<li class="title">Woocommerce (Products)</li>
+			<li><a href="#woocommerce_products" title="WooCommerce (Products)">WooCommerce (Products)</a></li>
+			<li class="title">Dokan Multivendor</li>
+			<li><a href="#dokan_multivendor" title="Dokan Multivendor">Dokan Multivendor</a></li>
+			<li class="title">Page & Post Creation</li>
+			<li><a href="#creating_pages" title="Creating Pages (Rows & Columns)">Creating Pages (Rows & Columns)</a></li>
+			<li><a href="#page_elements" title="Page Elements">Page Elements</a></li>
+			<li><a href="#page_settings" title="Page Settings">Page Settings</a></li>
+			<li><a href="#creating_posts" title="Creating Posts">Creating Posts</a></li>
+			<li><a href="#creating_blog_page" title="Creating a Blog Page">Creating a Blog Page</a></li>
+			<li class="title">Portfolio</li>
+			<li><a href="#creating_portfolio_items" title="Creating Portfolio Items">Creating Portfolio Items</a></li>
+			<li><a href="#creating_portfolio_page" title="Creating a Portfolio Page">Creating a Portfolio Page</a></li>
+			<li class="title">Testimonials</li>
+			<li><a href="#creating_testimonials" title="Creating Testimonials">Creating Testimonials</a></li>
+			<li class="title">Plugins</li>
+			<li><a href="#visual_composer" title="Visual Composer">Visual Composer</a></li>
+			<li><a href="#revolution_slider" title="Revolution Slider">Revolution Slider</a></li>
+			<li><a href="#contact_form_7" title="Contact Form 7">Contact Form 7</a></li>
+			<li><a href="#YITH_wooCommerce_wishlist" title="YITH WooCommerce Wishlist">YITH WooCommerce Wishlist</a></li>
+			<li><a href="#YITH_wooCommerce_compare" title="YITH WooCommerce Compare">YITH WooCommerce Compare</a></li>			
+			<li><a href="#mailChimp_wordPress" title="MailChimp for WordPress">MailChimp for WordPress</a></li>
+			<li class="title">EmallShop Shortcodes</li>
+			<li><a href="#emallshop_shortcodes" title="EmallShop Shortcodes">EmallShop Shortcodes</a></li>
+			<li class="title">Theme Customization</li>
+			<li><a href="#child_theme" title="Child Theme">Child Theme</a></li>
+			<li><a href="#customize_css_js" title="Customize Style">Customize CSS/JS</a></li>
+			<li class="title">Extra</li>
+			<li><a href="#updating_emallshop" title="Updating EmallShop">Updating EmallShop</a></li>
+			<li><a href="#finally" title="Finally">Finally</a></li>
+
+		</ul>
+		<div id="document_copyright">
+			&copy; 2016 presslayouts.com<br>
+			made with the <a href="http://docs.presslayouts.com/emallshop/">Document v1.0</a> 
+		</div>
+	</div>
+	<div id="document_content">
+		<div class="header">
+			<h1><span>EmallShop - </span> Responsive Multipurpose WooCommerce Theme</h1>
+			<div class="header_links">
+				<a href="#" target="_blank">Support Forum</a>
+				<a href="http://docs.presslayouts.com/emallshop/" target="_blank">Online Documentation</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<section id="document_intro">
+			<h2 class="bordered">1) Indtroduction</h2>
+			<p> Thank you for purchasing <b>EmallShop Wordpress Theme</b>! In this document you will find information on how to install, manage and update your theme, as well as create content, install plugins, import Demo data etc. For the latest version of this Document please visit the <a target="_blank" href="http://docs.presslayouts.com/emallshop/">Online Documentation</a>. If you have any questions that are beyond the scope of this help file, please feel free to contact us via email : <b>presslayouts@gmail.com</b>. We will do our best to answer you in shortest of time.</p>
+			<p><img src="assets/images/theme-preview.jpg"></p>
+		</section>
+		
+		<section id="theme_installation">
+			<h2 class="bordered">2) Theme Installation</h2>
+			<p>If you've downloaded whole theme package, unzip it. There you will find the theme installation file , documentaion, emallshop.zip, emallshop-child.zip,  etc.</p>
+			<p><img src="assets/images/image_2.jpg"></p>
+			<p>Alternatively you can simply download the installable WordPress file.</p>
+			<p><img src="assets/images/image_3.jpg"></p>	
+			<p> When you are ready to install the theme, you must first upload the theme files and then activate the theme. For this purpose, unzip the file that you downloaded from themeforest and there you would find theme <b>emallshop.zip</b> file and upload it via wordpress installer. The theme files can be uploaded in two ways  </p>
+			
+			<p> <b class="step">Notice:</b>- Need to be required extend your maximum file upload size, If <b>install theme via Wordpress</b> OR <b> Import demo data</b>. We decided to share some tips about how to extend your maximum file upload size in WordPress</p>
+			
+			<p>Edit your wp-config.php file and enter something like:<br/>
+			define('WP_MEMORY_LIMIT', '256M');</p>
+			
+			<p>If you can see the php.ini file then change parameters or add.</p>
+			
+			<p class="information">
+				upload_max_filesize = 64M <br/>
+				post_max_size = 64M <br/>
+				max_execution_time = 480 <br/>
+				max_input_vars = 3000 <br/>
+				In case that tip does not work with 64MB, try it with 10MB.
+			</p>
+	
+			<p>&nbsp;</p>
+			<h3 class="bordered">1) Installation via Wordpress </h3>
+			<p> <b class="step">Step 1</b> - Login to your Wordpress Dashboard.</p>
+			
+			<p> <b class="step">Step 2</b> - Go to <b>Appearance > Themes</b>. Click the <b>Add New</b> button or <b>Add new theme</b> link. <span class="lite">(check screenshot below)</span>.</p>
+			<p><img src="assets/images/install-1.jpg"></p>
+			<p><img src="assets/images/install-2.jpg"></p>
+			<p> <b class="step">Step 3</b> - Click on the <b>Upload Theme</b> button. Locate <b>emallshop.zip</b> and click <b>Install Now</b>. </p>
+			<p><img src="assets/images/install-3.jpg"></p>
+			<p> <b class="step"> Step 4</b> - Click on the <b>Activate</b> button to activate EmallShop. Congratulations, you have now activated EmallShop! You can now proceed with EmallShop's Plugin Installation.</p>
+			<p><img src="assets/images/install-4.jpg"></p>
+			<p>OR</p>
+			<p><img src="assets/images/install-5.jpg"></p>
+			
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">2) Installation via FTP</h3>
+			<p> <b class="step">Step 1</b> - Log into your Hosting server using an FTP client (like FileZilla or WinSCP). </p>
+			<p> <b class="step">Step 2</b> - Locate <b>emallshop.zip</b> that you found in your ThemeForest Package and unzip it somewhere on your hard drive. Once it is unzipped it will look like a folder named <b>emallshop</b> with all theme files in it. </p>
+			<p> <b class="step">Step 3</b> - Locate your Wordpress installation and upload the theme directory <b>emallshop</b>	 (you unzipped in the previous step) into <b>../wp-content/themes/</b> in your Wordpress installation. </p>
+			<p> <b class="step">Step 4</b> - Click on the <b>Activate</b> button to activate EmallShop. Congratulations, you have now activated EmallShop! You can now proceed with EmallShop's <b>Plugin Installation</b>. </p>
+			<p><img src="assets/images/install-5.jpg"></p>
+		</section>
+		
+		<section id="plugins_install">
+			
+			<h2 class="bordered">3) Plugins Installation</h2>
+			<p>Once your theme is installed you will get a prompt at the top of your Dashboard that will ask you to install EmallShop's plugins. Follow below step and install and active plugins.</p>
+			
+			<p> <b class="step">Step 1</b> - Click on the <b>Begin activating plugins</b> links <b>Or</b> Go to <b>Appearance > Install Plugins</b>. </p>
+			<p><img src="assets/images/plugin-install-1.jpg"></p>
+			<p> <b class="step">Step 2</b> - Select all plugins that you wish to install (Selecting all of them is recommended). </p>			
+			<p> <b class="step">Step 3</b> - Change Bulk Actions drop to <b>Install</b> then click <b>Apply</b> in order to install the selected Plugins. </p>
+			<p><img src="assets/images/plugin-install-2.jpg"></p>
+			<p> <b class="step">Step 4</b> - After all plugin Installed then click on below <b>Return to Required Plugins Installer</b> link.</p>	
+			<p><img src="assets/images/plugin-install-3.jpg"></p>
+			<p> <b class="step">Step 6</b> - Select again all plugins and Change Bulk Actions drop to <b>Active</b> then click <b>Apply</b> order to active the selected plugins.</p>	
+			<p><img src="assets/images/plugin-install-4.jpg"></p>
+			<p> <b class="step">Step 7</b> - All Plugin actived then after now go to import demo data. </p>
+		</section>
+		
+		<section id="import_demo_data">
+			
+			<h2 class="bordered">4) Import Demo Data</h2>
+			<p>Once you have installed all theme Plugins you can import the EmallShop Demo Content. Importing demo content will copy sliders, widget, theme options, products data, posts, pages and portfolio posts, this will replicate the live demo.</p>			
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Theme Options > Import Demo Data</b>. </p>
+			<p> <b class="step">Notice</b> - Import demo data before need to be required extend upload file size, execution time etc... otherwise generate error. Read above <a href="#theme_installation">Theme Installation</a> Notice. </p>
+			<p> <b class="step">Step 2</b> - Choose any one preset layout and click on it thumb image. It can also take a minute to complete import demo data.</p>
+			<p><img src="assets/images/import-data-1.jpg"></p>
+		</section>
+		
+		<section id="logo_setup">
+			
+			<h2 class="bordered">5) Logo Upload</h2>
+			<p>Follow the steps below to upload your own logo to EmallShop Theme.</p>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Theme Options > General Settings</b>. </p>
+			<p> <b class="step">Step 2</b> - Click on Header Logo <b>Upload</b> Button then upload your Logo Image file. </p>
+			<p><img src="assets/images/logo-1.jpg"></p>
+			<p> <b class="step">Step 3</b> - You can do so below the Favicon Icon - Upload a favicon image. </p>
+		</section>
+		
+		<section id="menu_setup">
+			
+			<h2 class="bordered">6) Menu Setup</h2>
+			<p>Your Menus are managed under the Appearance > Menus. This is where you create/manage your custom menus and assign them to specific locations.</p>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Menus</b> and click on <b>create a new menu</b>. </p>
+			<p><img src="assets/images/menu-setup-1.jpg"></p>
+			<p> <b class="step">Step 2</b> - Name your Menu and click on <b>Create Menu</b>. Then use the tool to the left to add items to your menu and save it.</p>
+			<p><img src="assets/images/menu-setup-2.jpg"></p>
+			<p><img src="assets/images/menu-setup-3.jpg"></p>
+			<p> <b class="step">Step 3</b> - Once you have created your menu you can assign it to a specific slot in the <b>Manage Locations</b> tab. If you create header menu then assign <b>Primary Menu</b> and If you create categories/vertical menu then assign <b>Vertical Menu</b>.</p>
+			<p><img src="assets/images/menu-setup-4.jpg"></p>
+			
+			<p>If you want to add Menus to your Sidebars/Footers you can do so under <b>Appearance > Widgets</b> by adding a Menu widget to the widget area of your choice then selecting the specific menu you want to use there. </p>
+			<p><img src="assets/images/menu-setup-5.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">6.1) Create MegaMenus</h3>
+			<p>Creating MegaMenus is very similar to creating a regular multilevel menu, in fact all you need to do to create a MegaMenu from a regular menu is checked <b>Enable EmallShop Mega Menu (only for main menu)</b> to the top level Menu item.</p>
+			
+			<p> <b class="step">Step 1</b> - Create MegaMenu and set background image.</p>
+			<p><img src="assets/images/menu-setup-6.jpg"></p>
+			<p><img src="assets/images/menu-setup-6-6.jpg"></p>
+			<ol>
+				<li>Create MegaMenu so you can checked <b>Enable EmallShop Mega Menu (only for main menu)</b>.</li>
+				<li>MegaMenu view in full width so you can checked <b> Full Width Mega Menu (overrides column width)</b>.</li>
+				<li>Show Number of column megamenu so you can select column number in <b>Mega Menu Number of Columns</b> dropdown box.</li>
+				<li>Set megamenu background image so you can upload image.</li>
+				<li>Set FontAwesome icon of each menu before text.</li>
+			</ol>
+			<p> <b class="step">Step 2</b> - Set MegaMenu column width, Disable megamenu column title and set column image.</p>
+			<p><img src="assets/images/menu-setup-7.jpg"></p>
+			<p><img src="assets/images/menu-setup-8.jpg"></p>
+			<ol>
+				<li>Set megamenu column width so you can add number of column width in percentage (ex. 45%). </li>
+				<li>Disable megamenu column title so you can checked <b>Disable Mega Menu Column Title </b>.</li>
+				<li>Set megamenu column image in title below so you can upload image.</li>
+			</ol>
+			
+			<p> <b class="step">Step 3</b> - Add Widget in sub level megamenu. 	First of add widget in widget area then after select widget area in sub level of megamenu.</p>
+			<p><img src="assets/images/menu-setup-9.jpg"></p>
+			<p><img src="assets/images/menu-setup-10.jpg"></p>
+			<p><img src="assets/images/menu-setup-11.jpg"></p>
+			
+			<p> <b class="step">Step 4</b> - Create megamenu menu level in below image.</p>
+			<p><img src="assets/images/menu-setup-12.jpg"></p>
+			<p><img src="assets/images/menu-setup-13.jpg"></p>
+		</section>
+		
+		<section id="header_setup">
+			<h2 class="bordered">7) Header Setup</h2>
+			<p>This section describes how to setup your EmallShop Header, style your header, live search etc...</p>
+			<p>Go to <b>Appearance > Theme Options > Header</b>.</p>
+			<p><img src="assets/images/heager-1.jpg"></p>
+		</section>
+		
+		<section id="footer_setup">
+			<h2 class="bordered">8) Footer Setup</h2>
+			<p>EmallShop Theme offers a flexible footer with up to 4 widget areas that you can customize anyway you please. You can also pick a color preset for it as well as set your Copyrights text . Add any social icon you want to your footer.</p>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Theme Options > Footer</b> in your Dashboard.</p>
+			<p> <b class="step">Step 2</b> - Modify your footer Theme Options anyway you please. </p>
+			<p><img src="assets/images/footer-1.jpg"></p>
+			<p> <b class="step">Step 3</b> - Adding widgets to your footer widget areas is pretty straightforward, please check the <a href="#widget">Widgets</a> section to find out how to add them. </p>
+		</section>
+		
+		<section id="home_page_setup">
+			<h2 class="bordered">9) Select your Website's Home Page</h2>
+			<p>Once you have created/imported some Pages to your Wordpress installation you can select one of the pages to be your Home Page. Here's how to do that: </p>
+			<p> <b class="step">Step 1</b> - Go to <b>Settings > Reading</b> in your Dashboard.</p>
+			<p> <b class="step">Step 2</b> - Go to Under <b>Front page displays</b> select <b>A static page (select below)</b> from the drop down. </p>
+			<p> <b class="step">Step 3</b> - Select the Static Page you want to set as your Home Page under the <b>Front page:</b> dropdown.</p>
+			<p><img src="assets/images/home-setup-1.jpg"></p>
+		</section>
+		
+		<section id="theme_options">
+			<h2 class="bordered">10) Theme Options(General)</h2>
+			<p>Customize your General Theme Options globally here, manage your Wrapper Style, Page width, Smooth Scroll option </p>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Theme Options > General Settings</b> in your Dashboard.</p>
+			<p><img src="assets/images/theme-options-1.jpg"></p>
+		</section>
+		
+		<section id="theme_colors">
+			<h2 class="bordered">11) Theme Colors</h2>
+			<p>EmallShop lets you set a global website colors, topbar colors, header colors, naviagation bar colors, menu colors, footer colors, copyright colors and with all background pattern.</p>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Theme Options > Theme Styling</b> in your Dashboard.</p>
+			<p><img src="assets/images/theme-color-1.jpg"></p>
+		</section>
+		
+		<section id="sidebar">
+			<h2 class="bordered">12) Sidebars</h2>
+			<p>You can customize your Post/Page Sidebar Layouts on a per Post/Page basis while editing your Page/Post bottom 
+			<b>Page Layout Options</b>. By default Pages/Posts have a right sidebar. You can select first sidebar position <b>Right Side, Left Side or Full Width</b>. Then after select sidebar widget area.</p>
+			<p><img src="assets/images/sidebar-1.jpg"></p>
+			<p>This is also the area where you add new sidebars. Go to <b>Appearance > widgets</b> and enter custom widget area name and click on <b>Add Widget Area</b> in bottom widgets page. It will now be available for your to edit and appear under the Widgets area (check next section - Widgets). </p>
+		</section>
+		
+		<section id="widget">
+			<h2 class="bordered">13) Widgets</h2>
+			<p>You can customize your sidebars and footers with EmallShop easily by adding custom widgets to your widget areas (Sidebars/Footer columns). By default EmallShop comes with the following widget areas: <b>Widget Area, Shop Page Widget Area, Single Product Widget Area, Menu Widget Area 1, Menu Widget Area 2, Menu Widget Area 3, Footer Widget Area 1, Footer Widget Area 2, Footer Widget Area 3, Footer Widget Area 4</b>. Your Blog page and posts use the <b>Widget Area</b> by default. You can change the sidebar on a per Post/Page basis.</p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">13.1) Adding widgets</h3>
+			<p> <b class="step">Step 1</b> - Go to <b>Appearance > Widgets</b> in your Dashboard. You will see your available Widgets to the left and your available Widget areas to the right.</p>
+			<p> <b class="step">Step 2</b> - Drag Any widget you want to add to a Widget Area from the left section onto the right and into the Widget Area box you are going for.</p>
+			<p><img src="assets/images/widget-1.jpg"></p>
+			<p> <b class="step">Step 2</b> - Your Custom Widget Area you have created bottom Widgets page will also appear to the right as well as the Footer Widget Areas.</p>
+			<p><img src="assets/images/widget-2.jpg"></p>
+		</section>
+		
+		
+		<section id="uploading_image_size">
+			<h2 class="bordered">*) Upload Variation Image With Specific Size</h2>
+			<p>Uploding variation image with specific size then display proper and perfect image with good look page.</p>
+			<p>The sizes listed below determine the maximum dimensions in pixels to use when adding an image.</p>
+			
+			<p>1) Media Settings</p>
+			<p><img src="assets/images/image_size-1.jpg"></p>
+			<p>&nbsp;</p>
+			<p>2) Product Image Settings</p>
+			<p><img src="assets/images/image_size-2.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">*.1) Logo Image Size:</h3>
+			<p>Upload header logo image with <b>200 x 45</b> size.</p>
+			<p><img src="assets/images/header_logo.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">*.2) Post Featured Image Size:</h3>
+			<p>Upload post featured image with <b>960 x 540</b> size.</p>
+			<p><img src="assets/images/post_image.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">*.3) Portfolio Featured Image Size:</h3>
+			<p>Upload portfolio featured image with <b>770 x 500</b> size.</p>
+			<p><img src="assets/images/portfolio.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">*.4) Product Image Size:</h3>
+			<p>Upload product image with <b>850 x 995</b> size.</p>
+			<p><img src="assets/images/product_image.jpg"></p>			
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">*.5) Product Brand Image Size:</h3>
+			<p>Upload brand image with <b>250 x 132</b> size.</p>
+			<p><img src="assets/images/brand_image.jpg"></p>
+		</section>
+		
+		<section id="woocommerce_products">
+			<h2 class="bordered">14) WooCommerce (Products)</h2>
+			<p>EmallShop is fully compatible with Woocommerce so you can start your online shop with it in a matter of minutes. All you need to do is install Woocommerce plugin, setup your products and start selling! </p>
+			<p>Activate plugin and Setup WooCommerce (see screenshot)</p>
+			<p><img src="assets/images/woo_page.jpg"></p>
+			<p><img src="assets/images/plugin-install-6.jpg"></p>
+			<p><img src="assets/images/plugin-install-7.jpg"></p>
+			<p><img src="assets/images/plugin-install-8.jpg"></p>
+			<p><img src="assets/images/plugin-install-9.jpg"></p>
+			<p><img src="assets/images/plugin-install-10.jpg"></p>
+			<p><img src="assets/images/plugin-install-11.jpg"></p>
+			<div class="information">
+				<h4>WooCommerce Plugin</h4>
+				<p>You're now ready to proceed with configuring the rest of the theme. If you choose not to import the Demo Data you can proceed with adding content pages which we'll go through a little bit later in the docs. If you choose to start adding products and categories to WooCommerce manually, be sure to check out the following good guides by WooThemes:<p>
+				<p><a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/" target="_blank">Woocommerce Getting Started Guide</a><p>
+				<p><a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/setup-products/" target="_blank">WooCommerce - Product Setup</a><p>
+			</div>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">14.1) Shop Page Theme Options </h3>
+			<p>EmallShop has some custom Theme Options related to shop page that will help you manage your shop page. Head over to <b>Appearance > Theme Options > Shop Page</b> to explore them. </p>
+			<p><img src="assets/images/product_page_0.jpg"></p>
+			<p><img src="assets/images/product_page_1.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">14.2) Product Page Theme Options </h3>
+			<p>EmallShop has some custom Theme Options related to product that will help you manage your product detail page. Head over to <b>Appearance > Theme Options > Product Page</b> to explore them.  </p>
+			<p><img src="assets/images/product_page_2.jpg"></p>
+		</section>
+		
+		<section id="dokan_multivendor">
+			<h2 class="bordered">15) Dokan Multivendor</h2>
+			<div class="information">
+				<h4>Dokan Multivendor Plugin</h4>
+				<p>The pioneer multi-vendor plugin for WordPress. Start your own marketplace in minutes! :<p>
+				<p><a href="https://docs.wedevs.com/docs/dokan/" target="_blank">Dokan Multivendor Getting Started Guide</a><p>
+			</div>
+		</section>
+		
+		<section id="creating_pages">
+			<h2 class="bordered">15) Creating Pages (Rows & Columns)</h2>
+			<p>Content management is a breeze with EmallShop and it requires absolutely no coding skills. Using a highly customized version of the Visual Composer plugin the theme offers a user friendly Drag'n'Drop interface for easy page creation and editing. Follow these simple steps to create a Page with EmallShop: </p>
+			<p> <b class="step">Step 1</b> - Go to <b>Pages > Add new</b> in your Dashboard. Add a Title to your Page (top field).</p>
+			<p> <b class="step">Step 2</b> - Switch to Backend Editor if you are currently under Classic Mode (button below Title field).</p>
+			<p> <b class="step">Step 3</b> - Start adding page content by clicking on the <b>Plus</b> button or <b>Add Element</b>.</p>
+			<p><img src="assets/images/vc_info-1.jpg"></p>
+			<p> <b class="step">Step 4</b> - The <b>Add Element</b> Popup appears, click on the first element in order to add a new Row to your page. A Row is a main building block of a page, you can split your Rows into Columns, place various elements into your rows, set Row Backgrounds, effects etc.</p>
+			<p><img src="assets/images/vc_info-2.jpg"></p>
+			<p> <b class="step">Step 5</b> - Once you have the new Row added to your page you can split that Row into Columns in order to organize elements nicely in it. Once you split your Row into column you can start adding different Page Elements into your columns. If you want to edit your Row/Column Settings click on the small Pen icon (top right corner of the Row/Column). You can also Duplicate your Row with the Icon (duplicate icon) next to it or Remove the Row/Column with the icon to the right (trash bin icon).</p>
+			<p><img src="assets/images/vc_info-3.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">15.1) Row Settings (General)</h3>
+			<p> <b class="step">Step 1</b> - Start adding page content by clicking on the <b>Plus</b> button or <b>Add Element</b>.</p>
+			<p><img src="assets/images/vc_info-4.jpg"></p>			
+			<p> <b class="step">Step 2</b> - Set your Row stretch setting.</p>
+			<p><u>Default</u> will have your Row to follow your regular wrapper content width and the content within the Row to go into the center. </p>
+			<p>Select <u>Stretch Row</u> if you want your Row to go full width on your screen and the content to go into the center along with the regular wrapper content width - useful when you want content in the center but you want a full-width background of your row.</p>
+			<p>Select <u>Stretch Row and Content</u> if you want your Row to go full width on your screen and the content to go flow full width as well outside of the regular wrapper content width but with some padding to the sides - useful when you want content to flow full width of your screen and you want a full-width background of your row.</p>
+			<p>Select <u>Stretch Row and Content (no paddings)</u> if you want your Row to go full width on your screen and the content to go flow full width as well outside of the regular wrapper content width with no padding to the sides - useful when you want content to flow full width of your screen and you want a full-width background of your row. Please experiment with all of these options after you set a Background color to your Row and add some elements to your Row's columns in order to understand how they work. </p>
+			<p><img src="assets/images/vc_info-5.jpg"></p>
+			<p> <b class="step">Step 3</b> - Full height row?</p>
+			<p>Check this option if you want your Row to automatically stretch to your screen's height. If checked you can also pick the Content Position in a dropdown below. </p>
+			<p><img src="assets/images/vc_info-6.jpg"></p>
+			<p> <b class="step">Step 4</b> - Use video background?</p>
+			<p>Check this option if you want to apply a Youtube Video background to your Row. If checked you should also enter the Youtube Video URL below. </p>
+			<p><img src="assets/images/vc_info-7.jpg"></p>
+			<p> <b class="step">Step 5</b> - Set your <b>Parallax</b> setting.</p>
+			<p>Selecting an option here different than <b>None</b> will let you set a background image to the Row with Parallax Effect on Scroll. You can either upload a new image or set one from your Library. The difference between <b>Simple</b> and <b>With Fade</b> is in that <b>With Fade</b> adds an extra Fade Out effect to your Row content on user scroll (content fades out once Row is scrolled down). </p>
+			<p><img src="assets/images/vc_info-8.jpg"></p>
+			<p> <b class="step">Step 6</b> - Optional <b>ID</b> and <b>Class</b>. You can add those if you want to target this specific Row in you CSS or your Javascript code. </p>
+			<p><img src="assets/images/vc_info-9.jpg"></p>
+		</section>
+		
+		<section id="page_elements">
+			<h2 class="bordered">16) Adding/Editing Page Elements</h2>
+			<p>Adding Page Elements to your Page is pretty straightforward. First you need to have created a new page, added a Row to it and defined your Row Columns <a href="#creating_pages">(read more in the previous section)</a>. </p>
+			<p> <b class="step">Step 1</b> - Click on one of the <b>Plus Icons</b> within the column you want to add a new element to. </p>
+			<p><img src="assets/images/vc_info-10.jpg"></p>
+			<p> <b class="step">Step 2</b> - OThe Page Elements dialog will appear, click on the element you want to add to your Column/Row. </p>
+			<p><img src="assets/images/vc_info-11.jpg"></p>
+			<p> <b class="step">Step 3</b> - The Element Settings Dialog of the Element you are adding appears. Customize your element anyway you please, then click <b>Save</b>. </p>
+			<p><img src="assets/images/vc_info-12.jpg"></p>
+			<p> <b class="step">Step 4</b> - Your element is now in the Column you added it to. Once you hover your newly added element you will see a small popup that let's you manage it. You can do the following with your elements: </p>
+			<p><u>Move</u> - Drag your element via the Direction Icon to move it around within the Column,Row or Page. </p>
+			<p><u>Edit</u> - Click on the Pen Icon to edit your Element's properties. </p>
+			<p><u>Clone </u> - Click on the Copy Icon to duplicate your Element.</p>
+			<p><u>Delete</u> - Click on the Trash Bin Icon to remove your Element. </p>
+			<p><img src="assets/images/vc_info-13.jpg"></p>
+		</section>
+		
+		<section id="page_settings">
+			<h2 class="bordered">17) Manage Page Settings</h2>
+			<p> Page settings on a per page basis while editing your page under the each per <b>Page Layout Options</b>.</p>
+			<p><img src="assets/images/page-setting-1.jpg"></p>
+			<p><u>Show Title</u> - Show page title or no of the page.</p>
+			<p><u>Show Breadcrumb</u> - Show page Breadcrumb or no of the page. </p>
+			<p><u>Sidebar Position</u> - Choose sidebar position of the page/post. </p>
+			<p><u>Sidebar Widget</u> - Choose widget of sidebar. </p>
+		</section>
+		
+		<section id="creating_posts">
+			<h2 class="bordered">18) Creating Posts</h2>
+			<p>Creating Posts with EmallShop is pretty straightforward. Follow the steps below to create your own Posts now.</p>
+			<p> <b class="step">Step 1</b> - Go to <b>Posts > Add New</b> in your Dashboard.</p>
+			<p> <b class="step">Step 2</b> - Enter your Post Title at the top of the Edit post. </p>
+			<p> <b class="step">Step 3</b> - Enter your Post content. </p>
+			<p> <b class="step">Step 4</b> - Select Post Format, Category, Tags and other meta data if you want it.</p>
+			<p> <b class="step">Step 5</b> - Upload a Featured Image for this Post.</p>
+			<p> <b class="step">Step 6</b> - Click on Publish/Update button.</p>
+			<p><img src="assets/images/blog-2.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">18.1) Post Formats</h3>
+			<p> <b class="step">Standard</b> - This is the Standard Post type with a single Featured Image that displays on top of the Post content. </p>
+			<p><img src="assets/images/post-1.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">18.2) Post Categories</h3>
+			<p>You can manage Post Categories via the <b>Dashboard > Post > Categories</b> section or straight into the Post Editor. While editing a Post find the <b>Categories</b> section to the right, check the boxes of the existing Categories you want to add this Post to or add a new Category below. </p>
+			<p><img src="assets/images/post-2.jpg"></p>
+			
+			<h3 class="bordered">18.3) Post Tags</h3>
+			<p>You can manage Post Tags via the <b>Dashboard > Post > Tags</b> section or straight into the Post Editor. While editing a Post find the <b>Tags</b> section to the right, type in the new Tag you want to add to this Post or click on the <b>Choose from the most used tags</b> Link in order to see the existing tags and add one of them by clicking on it. </p>
+			<p><img src="assets/images/post-3.jpg"></p>
+		</section>
+		
+		<section id="creating_blog_page">
+			<h2 class="bordered">19) Creating a Blog Page</h2>
+			<p>Creating a blog Page is quite easy with EmallShop. Follow the steps below the create a blog Page with a category Filter dropdown in the top right corner. </p>
+			<p> <b class="step">Step 1</b> - Go to <b>Pages > Add New</b> in your Dashboard</p>
+			<p> <b class="step">Step 2</b> - Enter your Blog page Title. </p>
+			<p> <b class="step">Step 3</b> - From the <b>Page Attributes > Template</b> dropdown in the right select the <b>Blog</b> template. Save and you are Done! </p>
+			<p><img src="assets/images/blog-1.jpg"></p>
+			
+			<p> <u>Show Title</u> - Show blog page title or not. </p>
+			<p> <u>Show Breadcrumb</u> - Show blog page breadcrumb or not. </p>
+			<p> <u>Show Posts Per Page</u> - Show number of post per blog page. </p>
+			<p> <u>Blog Style</u> - Select blog page style. Available 3 type blog page style Large Image, Small Image and Masonry Grid.	</p>
+			<p> <u>Show Post Columns</u> - Show post column of the blog page. Column option apply only on above masorny grid option. </p>
+			<p> <u>Sidebar Position</u> - Choose sidebar position of the page/post. </p>
+			<p> <u>Sidebar Widget</u> - Choose widget of sidebar. </p>	
+
+			<p>&nbsp;</p>
+			<h3 class="bordered">19.1) Blog/Post Theme Options</h3>
+			<p>EmallShop has some custom Theme Options related to Blog that will help you manage your blog page and post detail page. Head over to <b>Appearance > Theme Options > Blog</b> to explore them. </p>
+			<p><img src="assets/images/blog-3.jpg"></p>
+			
+		</section>
+		
+		<section id="creating_portfolio_items">
+			<h2 class="bordered">20) Creating Portfolio Items</h2>
+			<p>EmallShop ships with a Portfolio custom post type that lets you feature your work in style. To create your Portfolio items follow the steps below: </p>
+			<p> <b class="step">Step 1</b> -  Go to <b>Portfolio > Add New</b> in your Dashboard. </p>
+			<p> <b class="step">Step 2</b> -  Enter your Portfolio Item Title at the top of the Edit Portfolio. </p>
+			<p> <b class="step">Step 3</b> -  Enter your Portfolio content. </p>
+			<p><img src="assets/images/portfolio-1.jpg"></p>
+			<p> <b class="step">Step 4</b> -  Select <b>Portfolio Category</b>, <b>Portfolio Skills</b> on right side and enter other <b>portfolio information</b> in content bottom. </p>
+			<p> <b class="step">Step 5</b> -  Upload a Featured Image for this Portfolio Item. </p>
+			<p> <b class="step">Step 6</b> -  Click on Publish/Update button. </p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">20.1) Portfolio Categories</h3>
+			<p>You can manage Portfolio Categories via the Dashboard > Portfolio > Categories section or straight into the Portfolio Item Editor. While editing a Portfolio Item find the Portfolio Categories section to the right, check the boxes of the existing Categories you want to add this Portfolio Item to or add a new Category below. Make sure you have your categories set up before trying to create a Filterable Portfolio Page or a filterable Portfolio Grid. </p>
+			<p><img src="assets/images/portfolio-4.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">20.2) Portfolio Skills</h3>
+			<p>You can manage Portfolio Skills via the Dashboard > Portfolio > Skills section or straight into the portfolio Editor. While editing a Portfolio find the Skill section to the right, type in the new Skill you want to add to this Skill or click on the Choose from the most used skill Link in order to see the existing skill and add one of them by clicking on it. </p>
+			<p><img src="assets/images/portfolio-5.jpg"></p>
+		</section>
+		
+		<section id="creating_portfolio_page">
+			<h2 class="bordered">21) Creating a Portfolio Page</h2>
+			<p>Creating a Portfolio Page is quite easy with EmallShop. Follow the steps below the create a Portfolio Page with a category Filter dropdown in the top right corner. </p>
+			<p> <b class="step">Step 1</b> - Go to <b>Pages > Add New</b> in your Dashboard</p>
+			<p> <b class="step">Step 2</b> - Enter your Portfolio page Title. </p>
+			<p> <b class="step">Step 3</b> - From the <b>Page Attributes > Template</b> dropdown in the right select the <b>Portfolio</b> template. Save and you are Done! </p>
+			<p><img src="assets/images/portfolio-3.jpg"></p>
+			
+			<p> <u>Show Title</u> - Show Portfolio page title or not. </p>
+			<p> <u>Show Breadcrumb</u> - Show Portfolio page breadcrumb or not. </p>
+			<p> <u>Show Portfolio Per Page</u> - Show number of Portfolio per Portfolio page. </p>
+			<p> <u>Select Portfolio style</u> - Select Portfolio page style. Available 2 type Portfolio page style Normal Grid, and Masonry Grid.	</p>
+			<p> <u>Show Portfolio Columns</u> - Show portfolio columns of the page. </p>
+			<p> <u>Sidebar Position</u> - Choose sidebar position of the Portfolio page. </p>
+			<p> <u>Sidebar Widget</u> - Choose widget of sidebar. </p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">21.1) Portfolio Theme Options</h3>
+			<p>EmallShop has some custom Theme Options related to Portfolio that will help you manage your portfolio page and portfolio detail page. Head over to <b>Appearance > Theme Options > Portfolio</b> to explore them. </p>
+			<p><img src="assets/images/portfolio-2.jpg"></p>
+		</section>
+		
+		<section id="creating_testimonials">
+			<h2 class="bordered">23) Creating Testimonials</h2>
+			<p>EmallShop ships with a Testimonials custom post type that lets you feature your work in style. To create your Testimonials follow the steps below: </p>
+			<p> <b class="step">Step 1</b> -  Go to <b>Testimonials > Add New</b> in your Dashboard. </p>
+			<p> <b class="step">Step 2</b> -  Enter your Testimonial Title at the top of the Edit testimonial. </p>
+			<p> <b class="step">Step 3</b> -  Enter your Testimonial content. </p>
+			<p><img src="assets/images/testimonial-1.jpg"></p>
+			<p> <b class="step">Step 5</b> -  Upload a Featured Image for this Testimonial user. </p>
+			<p> <b class="step">Step 6</b> -  <b>Enter Designation</b> and <b>Enter Company Name</b> of use in <b>Testimonial Options</b> under content bottom. </p>
+			<p> <b class="step">Step 7</b> -  Click on Publish/Update button. </p>
+			
+			<h3 class="bordered">23.1) Testimonial Theme Options</h3>
+			<p>EmallShop has some custom Theme Options related to Testimonials that will help you manage your testimonials page and testimonial detail page. Head over to <b>Appearance > Theme Options > Testimonial</b> to explore them. </p>
+			<p><img src="assets/images/testimonial-2.jpg"></p>
+		</section>
+		
+		<section id="visual_composer">
+			<h2 class="bordered">25) Visual Composer</h2>
+			<p>EmallShop Theme package contains Page Builder plugin. It's a great plugin and we recommend using it as a primary tool for building your site's content.</p>
+		</section>
+		
+		<section id="revolution_slider">
+			<h2 class="bordered">26) Revolution Slider</h2>
+			<p>Revolution Slider is the most popular Wordpress slider solution out there with tons of awesome features. It is an all-purpose slide builder that allows for showing almost any kind of content with highly customizable, transitions, effects and custom animations. Due to its visual oriented interface and countless options, Slider Revolution is suited for all! </p>
+			
+			<div class="information">				
+				<h4>Revolution Slider</h4>
+				Revolution Slider comes with EmallShop Theme for free and should be used only with EmallShop Theme. Please read the documentation and tutorials on <a href="https://www.themepunch.com/revslider-doc/welcome-slider-revolution/" target="_blank">how to use Revolution Slider here</a>.
+			</div>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">26.1) Updating your Revolution Slider Plugin</h3>
+			<p>Updating your Revolution Slider plugin is rather easy, all you need to do is overwrite the current plugin version files with the latest ones provided within your Package. From your favorite FTP program, delete the folders/files in the following directory: <b>wp-content/plugins/revslider/</b></p>
+			<p>Then replace them with the folders/files located inside the "revslider" folder that can be found inside the revslider.zip file from your package. </p>
+			<p class="attention">Never uninstall/reinstall the plugin, as that would also delete your previously built sliders. Instead, as long as the following instructions are followed, any previously built sliders will be saved and still exist once the update process is complete!</p>
+		</section>
+		
+		<section id="contact_form_7">
+			<h2 class="bordered">27) Contact Form 7</h2>	
+			<p>Contact Form 7 is a Contact Form creation plugin that is very flexible and easy to use. It manages multiple contact forms, plus you can customize the form and the mail contents flexibly with simple markup. The form supports Ajax-powered submitting, CAPTCHA, Akismet spam filtering and so on. </p>
+			<p><img src="assets/images/contact-form-1.jpg"></p>
+			<div class="information">				
+				<h4>Contact Form 7 Plugin</h4>
+				Read more on how to Create your own Contact Forms a few sections up in Creating Contact Forms or find out more on the plugin <a href="http://contactform7.com/docs/" target="_blank">Contact Form 7 Plugin Documentation</a>.
+			</div>
+		</section>
+		
+		<section id="YITH_wooCommerce_wishlist">
+			<h2 class="bordered">28) YITH WooCommerce Wishlist</h2>
+			<p>These Plugins allow users adding products to wishlist them.</p>
+			<p><img src="assets/images/wishlist-1.jpg"></p>
+			<div class="information">				
+				<h4>YITH WooCommerce Wishlist Plugin</h4>
+				More info on how to use these plugins can be found at <a href="http://yithemes.com/docs-plugins/yith-woocommerce-wishlist/" target="_blank">YITH WOOCOMMERCE WISHLIST</a> Documentation page
+			</div>
+		</section>
+		
+		<section id="YITH_wooCommerce_compare">
+			<h2 class="bordered">29) YITH WooCommerce Compare</h2>
+			<p>These Plugins allow users adding products to comparing them.</p>
+			<p><img src="assets/images/compare-1.jpg"></p>
+			<div class="information">				
+				<h4>YITH WooCommerce Compare Plugin</h4>
+				More info on how to use these plugins can be found at <a href="http://yithemes.com/docs-plugins/yith-woocommerce-compare/" target="_blank">YITH WooCommerce Compare</a> Documentation page
+			</div>
+		</section>		
+		
+		<section id="mailChimp_wordPress">
+			<h2 class="bordered">30) MailChimp for WordPress</h2>
+			<p>MailChimp for WordPress comes with a free plugin, which is awesome by itself. It is actively used on nearly half a million sites and has been very well received by the WordPress community.</p>
+			<p><img src="assets/images/mailChimp-1.jpg"></p>
+			<p><img src="assets/images/mailChimp-2.jpg"></p>
+			<p> <b class="step">Notice</b> - Copy above shortcode and past in <b>Dashboard > Appearance > Theme Options > Footer</b> inside Newsletter Shortcode textbox.</p>
+			<p>&nbsp;</p>
+			<div class="information">				
+				<h4>MailChimp for WordPress Plugin</h4>
+				More info on how to use these plugins can be found at <a href="https://mc4wp.com/kb/installing-free-plugin/" target="_blank">MailChimp for WordPress</a> Documentation page
+			</div>
+		</section>
+		
+		<section id="emallshop_shortcodes">
+			<h2 class="bordered">31) EmallShop Shortcodes</h2>
+			<p>Together with Visual Composer default shortcode, EmallShop has built in 11 other shortcodes, we have used both default shortcodes and our EmallShop shortcodes to build our EmallShop theme.</p>
+			<p>Before you have read How to build Home page using Visual Compare? If you read more page build info then read <a href="#creating_pages">Creating Pages</a> section.</p>
+			<p><img src="assets/images/shortcode-1.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.1) Category Products Width Tabs</h3>
+			<p>This shortcode use to display product categories and products with tab of selected parent category.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-2.jpg"></p>
+			<p><img src="assets/images/shortcode-3.jpg"></p>
+			<p><img src="assets/images/shortcode-4.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.2) Products Carousel</h3>
+			<p>This shortcode use to display only one variation type of products with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-5.jpg"></p>
+			<p><img src="assets/images/shortcode-6.jpg"></p>
+			<p><img src="assets/images/shortcode-7.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.3) Categories & Sub Categories</h3>
+			<p>This shortcode use to display caregories and sub categories with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-8.jpg"></p>
+			<p><img src="assets/images/shortcode-9.jpg"></p>
+			<p><img src="assets/images/shortcode-10.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.4) Products Brands</h3>
+			<p>This shortcode use to display product brands with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-11.jpg"></p>
+			<p><img src="assets/images/shortcode-12.jpg"></p>
+			<p><img src="assets/images/shortcode-13.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.5) Hot Deal Products</h3>
+			<p>This shortcode use to display hot deal products with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-14.jpg"></p>
+			<p><img src="assets/images/shortcode-15.jpg"></p>
+			<p><img src="assets/images/shortcode-16.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.6) Products Sidebar</h3>
+			<p>This shortcode use to display products on sidebar with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-17.jpg"></p>
+			<p><img src="assets/images/shortcode-18.jpg"></p>
+			<p><img src="assets/images/shortcode-19.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.7) Vertical/Categories Menu</h3>
+			<p>This shortcode use to display vertical/categories menu.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-20.jpg"></p>
+			<p><img src="assets/images/shortcode-21.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.8) Blogs Carousel</h3>
+			<p>This shortcode use to display blogs with carousel slider.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-22.jpg"></p>
+			<p><img src="assets/images/shortcode-23.jpg"></p>
+			<p><img src="assets/images/shortcode-24.jpg"></p>
+
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.9) Blogs Listing</h3>
+			<p>This shortcode use to display blogs listing in blog page.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-25.jpg"></p>
+			<p><img src="assets/images/shortcode-26.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.10) Portfolio Listing</h3>
+			<p>This shortcode use to display portfolios listing in portfolio page.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-27.jpg"></p>
+			<p><img src="assets/images/shortcode-28.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.11) Newsletter</h3>
+			<p>This shortcode use to MailChimp helps you to email the right people at the right time. You can send automated emails based on customer behavior and preferences, it will help the customer to receive all the information from your online shop.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-29.jpg"></p>
+			<p><img src="assets/images/shortcode-30.jpg"></p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.12) Testimonials</h3>
+			<p>This shortcode use to display peoples say testimonial.</p>
+			<p>You can see first shortcode demo image and after setting in below image.</p>
+			<p><img src="assets/images/shortcode-31.jpg"></p>
+			<p><img src="assets/images/shortcode-32.jpg"></p>
+			
+			
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">31.12) How to create home page?</h3>
+			<p>Backend home page</p>
+			<p><img src="assets/images/backend_home_page.jpg"></p>
+			<p>&nbsp;</p>
+			<p>Frontend home page</p>			
+			<p><img src="assets/images/frontend_home_page.jpg"></p>
+			
+		</section>	
+		
+		<section id="child_theme">
+			<h2 class="bordered">32) Child Theme</h2>
+			<p>EmallShop Wordpress Theme comes with a Child Theme ready to be used. Simply install the <b>emallshop-child.zip</b> and activate the Child Theme just like a regular theme after you have installed EmallShop. </p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">32.1) What is a Child Theme?</h3>
+			<p>A child theme is a theme that inherits the functionality and styling of another theme, called the parent theme. Child themes are the recommended way of modifying an existing theme. Child themes allow you to modify or add to the functionality of the existing parent theme.</p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">32.2) Why use a Child Theme?</h3>
+			<p class="information">Always use a Child Theme when modifying any theme files. This way you make sure a theme update will not wipe out any changes you have made to the files.</p>
+			<p>There are a few reasons why you would want to use a child theme: If you modify a theme directly and it is updated, then your modifications may be lost. By using a child theme you will ensure that your modifications are preserved. </p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">32.3) Install and active child theme</h3>
+				<h4 class="bordered">FTP Upload</h4>
+				<ol>
+					<li>Unzip the <b>emallshop-child.zip</b> file</li>
+					<li>Upload the extracted <b>emallshop-child</b> theme folder into <b>/wp-content / themes/</b> in your wordpress installation</li>
+					<li>To Activate the theme, Go to <b>Appearance > Themes</b> and activate the installed theme</li>
+				</ol>
+				
+				<p>&nbsp;</p>
+				<h4 class="bordered">WordPress Upload</h4>
+				<ol>
+					<li>Navigate to <b>Appearance > Themes</b>.</li>
+					<li>Click <b>Add New</b> button and finally hit the <b>Upload Theme</b></li>
+					<li><img src="assets/images/child-theme-2.jpg"></li>
+					<li>Click on <b>Choose File</b> and find the <b>emallshop-child.zip</b> file on your computer and click <b>Install Now</b> button </li>
+					<li>The theme will be uploaded and installed.</li>
+					<li>To Activate the theme, Go to <b>Appearance > Themes</b> and activate the installed theme.</li>
+				</ol>
+				
+			<p>View child theme</p>
+			<p><img src="assets/images/child-theme-1.jpg"></p>
+		</section>
+		
+		<section id="customize_css_js">
+			<h2 class="bordered">33) Customize CSS/JS (global)</h2>
+			<p>EmallShop provides you with a useful way of adding Global CSS/JS rules to your website without editing any files. Simply head to your EmallShop <b>Appearance > Theme Options > Custom Code</b> in your Dashboard and type in any CSS and JS want to globally include into all your pages. </p>
+			<p><img src="assets/images/theme-options-2.jpg"></p>
+		</section>
+		
+		<section id="updating_emallshop">
+			<h2 class="bordered">34) Updating EmallShop</h2>
+			<p>Updating EmallShop is rather similar to installing the theme. Follow these steps to update your theme:</p>
+			<p> <b class="step">Step 1</b> - Login to your Wordpress Dashboard.</p>
+			<p> <b class="step">Step 2</b> - Go to <b>Appearance > Themes</b>. Deactivate EmallShop Theme by activating a different theme.</p>
+			<p> <b class="step">Step 3</b> - Delete EmallShop Theme, don't worry your content will not be lost.</p>
+			<p> <b class="step">Step 4</b> - Upload the latest version of <b>emallshop.zip</b> and activate it (more info in the <a href="#theme_installation">Theme Installation</a> section). </p>
+			<p class="information">When modifying any theme files it is always best to use a Child theme, thus your file changes won’t be lost once you update your theme (check the <a href="#child_theme">Child Theme</a> section for more). </p>
+		</section>
+		
+		<section id="finally">
+			<h2 class="bordered">35) Finally</h2>
+			
+			<h3>Thank you for reading!</h3>
+			<p>We hope you can create the best website with our themes.</p>
+			<p>One again, thank you so much for using our theme. As i said at the beginning, i'd be glad to help you if you have any questions relating to this theme. No guarantees, but i'll do my best to assist. If you have a more general question relating to the themes.</p>
+			<p>Do not hesitate to contact us via email : <b>presslayouts@gmail.com</b></p>
+			<p>Please take a screenshot photo with descriptions about your problem. More details about your problems help us more easier to figure out and respond you sooner.</p>
+			
+			<p>&nbsp;</p>
+			<h3 class="bordered">35.1) Scope of support</h3>
+			<p>Our support covers getting setup, trouble using any features and any bug fixes that may arise. Unfortunately we cannot provide support for customizations or 3rd party plugins. If you need help with customizations of your theme, please contact with us with your requirement. Our technical team will help you with some fees.</p>
+		</section>
+	</div>
+</body>
+</html>
