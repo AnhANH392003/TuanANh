@@ -1,0 +1,121 @@
+/*
+Theme Name: EmallShop
+Description: Used to style the dokan css.
+*/
+
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li{
+	border-bottom: 1px solid #19b0f6;
+}
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.dokan-common-links a{
+	border-right: 1px solid #19b0f6;
+}
+.dashboard-widget .list-inline{
+	margin-left:0;
+}
+ul.list-unstyled{
+	margin-bottom:10px;
+	margin-left: 0;
+}
+.chart-placeholder .legend table{
+	border:none !important;
+	width:auto;	
+}
+.chart-placeholder .legend table th, .chart-placeholder .legend table td{
+	padding:0;
+}
+.chart-placeholder .legend table td{
+	border: medium none !important;
+    padding: 1px;
+    vertical-align: middle;
+}
+.product-edit-new-container label.form-label{
+	font-size: 14px;
+    font-weight: 600;
+}
+.woocommerce ul.cart_list li dl dt, .woocommerce ul.product_list_widget li dl dt{
+	font-weight:600;
+}
+.dokan-message, .dokan-info, .dokan-error{
+	color:#fff;
+}
+
+/*Seller store*/
+#dokan-secondary{
+	margin:0 !important
+}
+.seller-form .dokan-form-group{
+	padding-left:0;
+}
+.sub-category .sub-block h3{
+	font-size:14px;
+	font-weight:normal;
+	margin:0;
+	padding:0.3em 0 0.3em 1em;
+	position:relative;
+}
+.sub-category .sub-block h3 a:before {
+	font-family: FontAwesome;
+	font-size:12px;
+	content: "\f0da";
+	position: absolute;
+	left:0;
+	top:5px;
+}
+.dokan-pagination-container .dokan-pagination li a{
+    margin: 0;
+	margin-left: -1px;
+    padding: 6px 12px;
+}
+.dokan-pagination-container .dokan-pagination li:hover a, .dokan-pagination-container .dokan-pagination li.active a{
+	color:#fff;
+}
+.dokan-pagination-container .dokan-pagination li.disabled a{
+	opacity:.7;
+}
+.pagination-wrap ul.pagination > li > a:hover, .pagination-wrap ul.pagination > li > span.current{
+	color:#fff;
+}
+
+/*Top bar menu*/
+.topbar-right .navbar-nav > li > a{
+	padding: 10px 8px;
+	display: inline-block;
+}
+.topbar-right .nav > li > a:focus, .topbar-right .nav > li > a:hover{
+	background:none;
+}
+.topbar-right .topbar-dokan-cart{
+	display:none;
+}
+
+/*Seller Listing*/
+ul.dokan-seller-wrap{
+	margin-left: -15px;
+    margin-right: -15px;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller .dokan-store-caption{
+	padding:10px 15px 0;
+}
+.dokan-list-single-seller .dokan-store-caption address{
+	display:none;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller {
+  list-style: none;
+  margin: 0 0 30px 0;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller .dokan-store-thumbnail{
+	padding-bottom:10px;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller .dokan-store-banner-wrap {
+  background-color: #ededed;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller .dokan-store-banner-wrap img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+ul.dokan-seller-wrap li.dokan-list-single-seller .dokan-store-caption h3 {
+  padding: 0;
+  margin: 0 0 15px 0;
+}
